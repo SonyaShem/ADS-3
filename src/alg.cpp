@@ -42,7 +42,6 @@ unsigned int seqCollatz(unsigned int *maxlen,
           best_num = i;
       }
   }
-  
   *maxlen = best_len;
   return best_num;
 }
